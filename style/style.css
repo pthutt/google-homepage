@@ -1,0 +1,30 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav {
+	float: right;
+}
+
+a {
+	padding: 8px;
+}
+
+.google {
+	margin: 0 auto;
+	width: 17%;
+	padding-top: 100px;
+}
+
+input {
+	width: 40%;
+	height: 30px;
+	margin: 0 auto;
+	display: block;
+}
