@@ -10,6 +10,23 @@ ul {
 
 .nav {
 	float: right;
+	font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.icon {
+	height: 15px;
+	width: 15px;
+}
+
+.noti {
+	height: 15px;
+	width: 15px;
+}
+
+.letter {
+	height: 25px;
+	width: 25px;
 }
 
 a {
@@ -27,4 +44,29 @@ input {
 	height: 30px;
 	margin: 0 auto;
 	display: block;
+}
+
+
+.search {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.botnav {
+	bottom: 0;
+	position: fixed;
+}
+
+.botnav ul li {
+	display: inline-block;
+}
+
+.botnavleft {
+	float: left;
+}
+
+.botnavright {
+	float: right;
 }
