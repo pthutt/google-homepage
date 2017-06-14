@@ -4,6 +4,16 @@ ul {
 	padding: 0;
 }
 
+a:link, a:visited {
+	color: #737373;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: black;
+	text-decoration: underline;
+}
+
 .nav ul li {
 	display: inline-block;
 }
@@ -54,19 +64,37 @@ input {
 	padding-bottom: 5px;
 }
 
-.botnav {
-	bottom: 0;
-	position: fixed;
-}
 
-.botnav ul li {
+.botnavleft ul li {
 	display: inline-block;
 }
 
+.botnavright ul li {
+	display: inline-block;
+}
+
+
 .botnavleft {
-	float: left;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-family: arial, sans-serif;
+    font-size: 14px;
 }
 
 .botnavright {
-	float: right;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: arial, sans-serif;
+    font-size: 14px;
 }
